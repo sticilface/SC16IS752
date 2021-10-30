@@ -30,6 +30,8 @@
  # define WIRE Wire
 #elif ESP8266 // ESP8266
  # define WIRE Wire
+#elif ESP32 // ESP32
+ # define WIRE Wire
 #else // Arduino Due
  # define WIRE Wire1
 #endif // ifdef __AVR__
